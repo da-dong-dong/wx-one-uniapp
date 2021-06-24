@@ -1,0 +1,70 @@
+.bigBox{
+	font-size: 28rpx;
+	margin: 30rpx;
+	.searchBox{
+		display: flex;
+		.text{
+			padding: 3rpx;
+		}
+		.picker{
+			border: 1rpx solid #61A3FF;
+			border-radius: 10rpx;
+			padding: 3rpx 10rpx;
+			margin-left: 30rpx;
+			display: flex;
+			>view{
+				margin-right: 10rpx;
+			}
+		}
+	}
+	.prompt{
+		margin-top: 20rpx;
+	}
+	.mainBox{
+		font-size: 32rpx;
+		.titleBox{
+			display: flex;
+			justify-content: space-between;
+			background-color: #f8f8f9;
+			.title{
+				text-align: center;
+				width: 20%;
+				padding: 10rpx 0;
+			}
+			.title:nth-child(1){
+				width: 54%;
+				margin-left: 6%;
+			}
+		}
+		.textBox{
+			display: flex;
+			justify-content: space-between;
+			margin-top: 20rpx;
+			.check{
+				width: 6%;
+			}
+			.text{
+				width: 20%;
+				text-align: center;
+			}
+			.fText{
+				width: 54%;
+				text-align: center;
+			}
+		}
+	}
+	.button{
+		position: fixed;
+		bottom: 30rpx;
+		width: 600rpx;
+		color: #FFFFFF;
+		background-color: #61A3FF;
+		height: 80rpx;
+		line-height: 80rpx;
+		text-align: center;
+		border-radius: 40rpx;
+		margin: 0 auto;
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
+}

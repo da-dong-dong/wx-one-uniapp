@@ -1,0 +1,67 @@
+	.bigBox{
+		padding: 30rpx 55rpx;
+		border-bottom: 1rpx solid #DDDDDD;
+		font-size: 28rpx;
+		.listBox{
+			display: flex;
+			margin-bottom: 30rpx;
+			.list{
+				display: flex;
+				.info{
+					width: 130rpx;
+					text-overflow: ellipsis;
+					overflow: hidden;
+					white-space: nowrap;
+				}
+			}
+			.list:nth-child(1){
+				width: 370rpx;
+				.info{
+					width: 200rpx;
+					// text-overflow: ellipsis;
+					// overflow: hidden;
+					white-space: nowrap;
+				}
+			}
+			.time{
+				width: 400rpx;
+			}
+			.remark{
+				width: 500rpx;
+			}
+		}
+		.onlyListBox{
+			display: flex;
+			margin-bottom: 30rpx;
+			.list{
+				display: flex;
+				.remark{
+					width: 500rpx;
+					overflow : hidden;
+					text-overflow: ellipsis;
+					display: -webkit-box;
+					-webkit-line-clamp: 2;
+					-webkit-box-orient: vertical;
+				}
+			}
+		}
+	}
+	.butBox{
+		display: flex;
+		flex-direction: row-reverse;
+		padding: 30rpx 0;
+		.but{
+			color: #FFFFFF;
+			background-color: #61A3FF;
+			padding: 10rpx 20rpx;
+			margin-left: 30rpx;
+			font-size: 28rpx;
+			box-shadow:0rpx 7rpx 14rpx 1rpx rgba(97,163,255,0.27);
+			border-radius:30rpx;
+		}
+		.but:last-child{
+			background-color: #FFFFFF;
+			color: #333333;
+			border: 1rpx solid #DDDDDD;
+		}
+	}

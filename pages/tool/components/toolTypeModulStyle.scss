@@ -1,0 +1,48 @@
+.titleBox{
+	font-size: 32rpx;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 30rpx;
+	.title{
+		text-align: center;
+		width: 20%;
+	}
+	.title:nth-child(1){
+		width: 40%;
+	}
+}
+.infoBox{
+	max-height: 400rpx;
+	overflow: auto;
+	.textBox{
+		display: flex;
+		justify-content: space-between;
+		font-size: 32rpx;
+		margin: 0 30rpx;
+		margin-top: 30rpx;
+		.check{
+			width: 5%;
+		}
+		.text{
+			width: 20%;
+			text-align: center;
+		}
+		.fText{
+			width: 40%;
+			text-align: center;
+		}
+	}
+}
+
+.serachBut{
+	background-color: #61A3FF;
+    color: #FFFFFF;
+    border-radius: 10rpx;
+    padding: 10rpx;
+}
+.serachButErr{
+	background-color: #FF0000;
+    color: #FFFFFF;
+    border-radius: 10rpx;
+    padding: 10rpx;
+}

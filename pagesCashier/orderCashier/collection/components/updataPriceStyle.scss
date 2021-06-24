@@ -1,0 +1,70 @@
+/deep/.imgMargin{
+		margin: 18rpx 0 0 5rpx !important;
+	}
+	.listBox{
+		display: flex;
+		margin: 30rpx;
+		padding: 20rpx;
+		border-bottom: 1rpx solid #DDDDDD;
+		font-size: 28rpx;
+		.title{
+			width: 270rpx;
+		}
+		.text{
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			image{
+				width: 15rpx;
+				height: 15rpx;
+				margin-top: 18rpx;
+			}			
+		}
+	}
+	.money{
+		font-size: 24rpx;
+		display: flex;
+		margin: 0 50rpx;
+		.sumPrice{
+			display: flex;
+			color: #2db7f5;
+			margin-right: 30rpx;
+		}
+		.incomePrice{
+			display: flex;
+			color: #19be6b;
+			margin-right: 30rpx;
+		}
+		.arrears{
+			display: flex;
+			color: #ed4014;
+			margin-right: 30rpx;
+		}
+		.refundPrice{
+			display: flex;
+			color: #a8a8a8;
+		}
+	}
+	textarea{
+		border: 1rpx solid #DDD;
+		border-radius: 5px;
+		margin: 30rpx;
+		padding: 20rpx;
+		width: 650rpx;
+		height: 100rpx;
+		font-size: 28rpx;
+	}
+	.button{
+		width: 600rpx;
+		color: #FFFFFF;
+		background-color: #61A3FF;
+		height: 80rpx;
+		line-height: 80rpx;
+		text-align: center;
+		border-radius: 40rpx;
+		font-size: 32rpx;
+		margin: 0 auto;
+		margin-left: 50%;
+		transform: translateX(-50%);
+		margin-bottom: 30rpx;
+	}

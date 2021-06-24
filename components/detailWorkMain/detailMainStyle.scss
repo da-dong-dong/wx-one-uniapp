@@ -1,0 +1,74 @@
+.mainBox{
+	padding: 30rpx;
+	background-color: #FFFFFF;
+	box-shadow:0rpx 7rpx 29rpx 6rpx rgba(0, 0, 0, 0.03);
+	border-radius:0rpx 0rpx 10rpx 10rpx;
+	font-size: 24rpx;
+	.listBox{
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 30rpx;
+		.list{
+			display: flex;
+			flex: 1.3;
+			.info{
+				width: 210rpx;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+		}
+		.list:nth-child(2){
+			flex: 1; 
+			.info{
+				width: 150rpx;
+			}
+		}
+		.arr{
+			width: 270rpx !important;
+		}
+	}
+	// 摄化人员
+	.personnel{
+		margin-bottom: 30rpx;
+		.pTitleBox{
+			margin-bottom: 30rpx;
+			display: flex;
+			justify-content: space-between;
+			.cross{
+				width: 215rpx;
+				height: 4rpx;
+				background-color: #DDDDDD;
+				margin-top: 22rpx;
+			}
+			.pTitle{
+				font-size: 32rpx;
+			}
+		}
+		.personBox{
+			.listBox{
+				display: flex;
+				justify-content: space-between;
+				.list{
+					flex: 1; 
+					.actor{
+						width: 165rpx;
+					}
+				}
+			}
+		}
+	}
+	.butBox{
+		display: flex;
+		flex-direction: row-reverse;
+		.but{
+			padding: 8rpx;
+			border-radius: 10rpx;
+			color: #FFFFFF;
+			background-color: #61A3FF;
+		}
+	}
+}
+.marginL20{
+	margin-left: 20rpx;
+}

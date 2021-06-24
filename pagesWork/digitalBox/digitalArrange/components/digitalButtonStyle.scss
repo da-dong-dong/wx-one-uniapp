@@ -1,0 +1,32 @@
+	.bigBox{
+		background-color: #FFFFFF;
+		padding: 20rpx;
+		display: flex;
+		justify-content: space-between;
+		box-shadow:0rpx 7rpx 29rpx 6rpx rgba(0, 0, 0, 0.05);
+		border-radius: 0 0 10rpx 10rpx;
+		margin-bottom: 30rpx;
+		.textBox{
+			font-size: 28rpx;
+			color: #333333;
+			.text{
+				display: flex;
+				margin-bottom: 15rpx;
+				>span{
+					color: #61A3FF;
+				}
+			}
+		}
+		.butBox{
+			display: flex;
+			flex-direction: column-reverse;
+			.but{
+				color: #FFFFFF;
+				background-color: #61A3FF;
+				padding: 10rpx 20rpx;
+				border-radius: 50rpx;
+				box-shadow:0rpx 7rpx 14rpx 1rpx rgba(97,163,255,0.27);
+				font-size: 28rpx;
+			}
+		}
+	}

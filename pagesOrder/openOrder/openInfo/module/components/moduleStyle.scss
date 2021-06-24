@@ -1,0 +1,86 @@
+.titleTop{
+	font-size: 38rpx;
+	margin: 20rpx 30rpx;
+	font-weight: bold;
+}
+ .flex{
+	 display: flex;
+ }
+ .uni-input{
+	 flex: 1;
+ }
+//  删除日期按钮
+ .deleBox{
+	 position: relative;
+ }
+ .deleBoxChild{
+	 position: absolute;
+	 right: 0;
+	 top: 50%;
+	 transform: translate(0,-50%);
+	 .icon{
+		 &:nth-child(1){
+			margin-right: 40rpx;
+		}
+	 }
+ }
+.bigBox{
+	margin: 0 30rpx;
+	padding: 20rpx 0;
+	border-bottom: 1rpx solid #f9f9f9;
+	justify-content: space-between;
+	.left{
+		display: flex;
+		flex: 1;
+		font-size: 28rpx;
+		position: relative;
+		.onRequired{
+			position: absolute;
+			color: red;
+			top: 5rpx;
+			left: -15rpx;
+		}
+		.title{
+			margin-right: 30rpx;
+		}
+		.text{
+			color: #8d8d8d;
+			width: 480rpx;
+		}
+		input{
+			width: 400rpx;
+			margin-top: -7rpx;
+		}
+		.picker{
+			display: flex;
+			justify-content: space-between;
+			width: 605rpx;
+		}
+	}
+	.uni-list-cell-db{
+		flex: 1;
+		color: #8d8d8d;
+	}
+	.switch{
+		margin-top: 0;
+		margin-right: -20rpx;
+		margin: -10rpx -20rpx -20rpx 0;
+		transform:scale(0.5);
+	}
+}
+.remark{
+	border-bottom: 1rpx solid #f9f9f9;
+	margin: 0 30rpx;
+	.title{
+		padding: 20rpx 0;
+		font-size: 28rpx;
+		font-weight: normal;
+	}
+	.textartea {
+		background-color: #f9f9f9;
+		width:650rpx;
+		height: 100rpx;
+		padding: 20rpx;
+		font-size: 24rpx;
+	}
+}

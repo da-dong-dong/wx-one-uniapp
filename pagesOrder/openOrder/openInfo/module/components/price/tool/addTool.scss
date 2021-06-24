@@ -1,0 +1,41 @@
+.bigBox{
+	padding: 20rpx 30rpx;
+	font-size: 28rpx;
+	.title{
+		color: #808080;
+		margin-bottom: 20rpx;
+	}
+	.tableTitle{
+		padding: 20rpx 0;
+		text-align: center;
+		display: flex;
+		background-color: #e5edff;
+		color: #61a3ff;
+		.text{
+			width: 20%;
+		}
+		.text:nth-child(1){
+			width: 40%;
+		}
+	}
+	.tableInfo{
+		.listInfo{
+			display: flex;
+			text-align: center;
+			.text{
+				width: 20%;
+			}
+			.text:nth-child(1){
+				width: 40%;
+			}
+			.price{
+				color: #FF0000;
+			}
+			input{
+				background-color: #FFFFFF;
+				width: 16% !important;
+				margin: 0 2%;
+			}
+		}
+	}
+}

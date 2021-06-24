@@ -1,0 +1,451 @@
+{
+	"pages": [
+		{
+			"path": "pages/come/come",
+			"style": {}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "工作台",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/forget/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/addressBook/addressBook",
+			"style": {
+				"navigationBarTitleText": "通讯录"
+			}
+		},
+		{
+			"path": "pages/information/information",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		
+		{
+			"path" : "pages/address/address",
+			"style" : {
+				"navigationBarTitleText": "人员选择"
+			}
+		},
+		{
+			"path" : "pages/gift/gift",
+			"style" : {
+				"navigationBarTitleText": "礼包选择"
+			}
+		},
+		{
+			"path" : "pages/tool/tool",
+			"style" : {
+				"navigationBarTitleText": "工具箱"
+			}
+		},
+		{
+			"path" : "pages/calendar/calendar",
+			"style" : {
+				"navigationBarTitleText": "日历"
+			}
+		}
+		,{
+			"path" : "pages/enterprise/enterprise",
+			"style" : {
+				"navigationBarTitleText": "选择企业"
+			}
+		}
+    ],
+	"subPackages": [
+		{
+	    "root": "pagesOrder",
+	    "pages": [
+				{
+					"path" : "openOrder/openOrder",
+					"style" : {
+						"navigationBarTitleText": "开单"
+					}
+				},
+				{
+					"path" : "openOrder/openUser/openUser",
+					"style" : {
+						"navigationBarTitleText": "录入客资"
+					}
+				},
+				{
+					"path" : "openOrder/openInfo/openInfo",
+					"style" : {}
+				},
+				{
+					"path" : "openOrder/openSuccess/openSuccess",
+					"style" : {
+						"navigationBarTitleText": "开单成功"
+					}
+				},
+				{
+					"path" : "openOrder/openUser/repeat/repeat",
+					"style" : {
+						"navigationBarTitleText": "重复客资提醒"
+					}
+				},
+				{
+					"path" : "orderBox/order/order",
+					"style" : {}
+				},
+				{
+					"path" : "orderBox/details/details",
+					"style" : {
+						"navigationBarTitleText": "订单详情"
+					}
+				},
+				{
+					"path" : "orderBox/details/modify/modifyOrderInfo/modifyOrderInfo",
+					"style" : {
+						"navigationBarTitleText": "编辑开单信息"
+					}
+				},
+				{
+					"path" : "orderBox/schedule/schedule",
+					"style" : {
+						"navigationBarTitleText": "订单进度"
+					}
+				}
+				,{
+					"path" : "orderBox/details/modify/modifyItemInfo/modifyItemInfo",
+					"style" : {
+						"navigationBarTitleText": "编辑子套系信息"
+					}
+				},
+				{
+					"path" : "orderBox/details/modify/modifyOrderActor/modifyOrderActor",
+					"style" : {
+						"navigationBarTitleText": "编辑服务人员"
+					}
+				},
+				{
+					"path" : "orderBox/details/modify/modifyPersonnel/modifyPersonnel",
+					"style" : {
+						"navigationBarTitleText": "编辑客户信息"
+					}
+				},
+				{
+					"path" : "orderBox/details/modify/modifyOrderItem/modifyOrderItem",
+					"style" : {}
+				}
+			]
+		},
+		{
+			"root":"pagesWork",
+			"pages":[
+				{
+					"path" : "arrange/arrange",
+					"style" : {}
+				},
+				{
+					"path" : "arrange/xyAddorUpdata/xyAddorUpdata",
+					"style" : {}
+				},
+				{
+					"path" : "arrange/pzAddorUpdata/pzAddorUpdata",
+					"style" : {}
+				},
+				{
+					"path" : "arrange/pzPerson/pzPerson",
+					"style" : {}
+				},
+				{
+					"path" : "arrange/pzAddorUpdata/chooseDress/chooseDress",
+					"style" : {
+						"navigationBarTitleText": "选择预约服装"
+					}
+				},
+				{
+					"path" : "arrange/pzAddorUpdata/choosePlace/choosePlace",
+					"style" : {
+						"navigationBarTitleText": "选择预约景点"
+					}
+				},
+				{
+					"path" : "arrange/xpAddorUpdata/xpAddorUpdata",
+					"style" : {}
+				},
+				{
+					"path" : "arrange/kbAddorUpdata/kbAddorUpdata",
+					"style" : {}
+				},
+				{
+					"path" : "arrange/qjAddorUpdata/qjAddorUpdata",
+					"style" : {}
+				},
+				{
+					"path" : "arrange/qjAddorUpdata/getGoods/getGoods",
+					"style" : {
+						"navigationBarTitleText": "选择取件商品"
+					}
+				},
+				{
+					"path" : "checkWork/checkWork",
+					"style" : {}
+				},
+				{
+					"path" : "checkWork/completeChooseClothes/completeChooseClothes",
+					"style" : {
+						"navigationBarTitleText": "完成选衣"
+					}
+				},
+				{
+					"path" : "checkWork/completePhoto/completePhoto",
+					"style" : {
+						"navigationBarTitleText": "完成拍照"
+					}
+				},
+				{
+					"path" : "convention/convention",
+					"style" : {}
+				},
+				{
+					"path" : "digitalBox/digitalChange/digitalChange",
+					"style" : {
+						"navigationBarTitleText": "选择安排"
+					}
+				},
+				{
+					"path" : "digitalBox/digitalList/digitalList",
+					"style" : {
+						"navigationBarTitleText": "数码安排"
+					}
+				},
+				{
+					"path" : "digitalBox/digitalArrange/digitalArrange",
+					"style" : {}
+				}
+			]
+		},
+		{
+			"root":"pagesCashier",
+			"pages":[
+				{
+					"path" : "orderCashier/orderCashier",
+					"style" : {
+						"navigationBarTitleText": "订单收款"
+					}
+				},
+				{
+					"path" : "orderCashier/detailPrice/detailPrice",
+					"style" : {
+						"navigationBarTitleText": "收款详情"
+					}
+				},
+				{
+					"path" : "orderCashier/collection/collection",
+					"style" : {}
+				},
+				{
+					"path" : "orderCashier/collection/updataLatePrice/updataLatePrice",
+					"style" : {}
+				},
+				{
+					"path" : "orderCashier/collection/updataEarlyPrice/updataEarlyPrice",
+					"style" : {}
+				},
+				{
+					"path" : "individualOrder/individualOrder",
+					"style" : {
+						"navigationBarTitleText": "散客订单"
+					}
+				},
+				{
+					"path" : "individualOrder/individualCashier/individualCashier",
+					"style" : {
+						"navigationBarTitleText": "散客收款"
+					}
+				},
+				{
+					"path" : "individualOrder/addIndividual/addIndividual",
+					"style" : {
+						"navigationBarTitleText": "新增散客订单"
+					}
+				},
+				{
+					"path" : "individualOrder/updataIndividual/updataIndividual",
+					"style" : {
+						"navigationBarTitleText": "修改散客订单"
+					}
+				}
+				,{
+					"path" : "SpendingAndIncome/SpendingAndIncome",
+					"style" : {}
+				}
+				,{
+					"path" : "SpendingAndIncome/addOrUpdataSpending/addOrUpdataSpending",
+					"style" : {}
+				}
+				,{
+					"path" : "SpendingAndIncome/addIncome/addIncome",
+					"style" : {
+						"navigationBarTitleText": "录入其他收入"
+					}
+				}
+				,{
+					"path" : "retention/retention",
+					"style" : {
+						"navigationBarTitleText": "保留金"
+					}
+				},
+				{
+					"path" : "retention/retentionRecord/retentionRecord",
+					"style" : {
+						"navigationBarTitleText": "保留金记录"	
+					}
+				},
+				{
+					"path" : "retention/retentionChange/retentionChange",
+					"style" : {}
+				},
+				{
+					"path" : "userInfo/userInfo",
+					"style" : {
+						"navigationBarTitleText": "客户信息"
+					}
+				},
+				{
+					"path" : "userInfo/repeat/repeat",
+					"style" : {
+						"navigationBarTitleText": "重复客资提醒"
+					}
+				}
+			]
+		},
+		{
+			"root":"pagesMember",
+			"pages":[
+				{
+					"path" : "memberRegister/memberRegister",
+					"style" : {
+						"navigationBarTitleText": "会员注册"
+					}
+				},
+				{
+					"path" : "memberRecharge/memberRecharge",
+					"style" : {
+						"navigationBarTitleText": "会员充值"
+					}
+				},	
+				{
+					"path" : "memberRecharge/memberWithdrawal",
+					"style" : {
+						"navigationBarTitleText": "会员提现"
+					}
+				},	
+				{
+					"path" : "memberSee/memberSee",
+					"style" : {
+						"navigationBarTitleText": "会员查询"
+					}
+				},
+				{
+					"path" : "memberDetails/memberDetails",
+					"style" : {
+						"navigationBarTitleText": "会员详情"
+					}
+				},
+				{
+					"path" : "memberDetails/pointsRecord",
+					"style" : {
+						"navigationBarTitleText": "积分记录"
+					}
+				},
+				{
+					"path" : "memberDetails/storedValueRecord",
+					"style" : {
+						"navigationBarTitleText": "储值记录"
+					}
+				}
+			]
+		}
+	],
+	"tabBar": {
+		"custom": true,
+		"color": "#666666",
+		"selectedColor": "#0379FB",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "工作台",
+				"style": {
+					"backgroundColor": "rgba(249, 249, 249, 1)"
+				}
+			},
+			{
+				"pagePath": "pages/addressBook/addressBook",
+				"text": "通讯录",
+				"style": {
+					"backgroundColor": "rgba(249, 249, 249, 1)"
+				}
+			},
+			{
+				"pagePath": "pages/information/information",
+				"text": "信息",
+				"style": {
+					"backgroundColor": "rgba(249, 249, 249, 1)"
+				}
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"style": {
+					"backgroundColor": "rgba(249, 249, 249, 1)"
+				}
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": " ",
+		"navigationBarBackgroundColor": "#61A3FF",
+		"backgroundColor": "#FFFFFF",
+		"enablePullDownRefresh": false,
+		"usingComponents":{
+			"i-cell-group": "/wxcomponents/cell-group/index",
+			"i-cell": "/wxcomponents/cell/index",
+			"i-modal": "/wxcomponents/modal/index",
+			"i-checkbox-group": "/wxcomponents/checkbox-group/index",
+			"i-checkbox": "/wxcomponents/checkbox/index",
+			"i-swipeout": "/wxcomponents/swipeout/index",
+			"i-icon": "/wxcomponents/icon/index",
+		  "i-page": "/wxcomponents/page/index",
+			"i-collapse": "/wxcomponents/collapse/index",
+			"i-collapse-item": "/wxcomponents/collapse-item/index",
+			"i-notice-bar": "/wxcomponents/notice-bar/index",
+			"i-message": "/wxcomponents/message/index"
+		}
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
